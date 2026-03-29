@@ -14,9 +14,9 @@ export default function App() {
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/forgetPassword" element={<ForgetPassword />} />
-          {/* just now  */}
+      
 
-          {/* <Route path="/" element={<ResetPassword />} /> */}
+          <Route path="/resetpassword" element={<ResetPassword />} />
           <Route path="/contact" element={<Contact />} />
                 <Route path='/' element={<Home/>}/>
         </Routes>
