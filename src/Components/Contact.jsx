@@ -136,7 +136,7 @@ export default function Contact() {
                   row={4}
                   fullWidth
                   className="textfield"
-                  placeholder="اكتب مالا يزيد عن 600 حرف "
+                  placeholder="اكتب مالا يزيد عن 700 حرف "
                   label="ادخل رسالتك"
                   slotProps={{
                     htmlInput: {
