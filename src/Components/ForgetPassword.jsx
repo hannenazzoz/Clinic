@@ -11,7 +11,7 @@ import InputAdornment from "@mui/material/InputAdornment";
 export default function ForgetPassword() {
   return (
     <>
-      <LoginLayout img={forgetimg} backTo={"/login"}>
+      <LoginLayout img={forgetimg} backTo={"/login"} >
         <Typography
           sx={{
             color: "text.primary",
@@ -43,7 +43,7 @@ export default function ForgetPassword() {
             sx={{
               "& ": { marginTop: "41px" },
               "& .MuiInputLabel-root.Mui-focused": { color: "text.primary" },
-              "& .MuiInput-input": { fontSize: "19px", width: 300 },
+              "& .MuiInput-input": { fontSize: "19px", width: 400 },
             }}
             variant="standard"
           />

@@ -1,5 +1,5 @@
 .page{
-min-height: 150vh;
+min-height: 100vh;
 background:  url(./assets/bgpage.jpg) center center no-repeat ;
 background-size: cover;
 }
@@ -11,12 +11,12 @@ justify-content: center;
 
 .loginpage .container .card {
   background:#A0D7E2;
-  padding:40px  ;
   position:relative;
   left:50%;
   transform: translateX(-50%);
   border: 1px solid #0D6F73;
  box-shadow: 15px 15px 25px 0px #00000040;
+
 } 
 .loginpage .container form div:first-child,
 .loginpage .container form div:nth-child(2)

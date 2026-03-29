@@ -47,6 +47,7 @@ export default function Foot() {
               }}
             >
               {pages.map((page) => (
+                <Typography>
                 <Link
                   underline="none"
                   sx={{
@@ -56,7 +57,8 @@ export default function Foot() {
                   }}
                 >
                   {page}
-                </Link>
+                  </Link>
+                  </Typography>
               ))}
             </Box>
           </Grid>
